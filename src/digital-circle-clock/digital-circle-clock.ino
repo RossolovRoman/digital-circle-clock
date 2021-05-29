@@ -1,7 +1,10 @@
-#include <Wire.h> 
-#include <uRTCLib.h> //https://github.com/Naguissa/uRTCLib.git 
-#include <SPI.h> 
-#include <ClockLed.h>
+#include <Wire.h>
+#include <SPI.h>
+//#include <uRTCLib.h> //https://github.com/Naguissa/uRTCLib.git
+#include "libraries\uRTCLib\src\uRTCLib.h"
+#include "libraries\uRTCLib\src\uRTCLib.cpp"
+#include "libraries\ClockLed\src\ClockLed.h"
+#include "libraries\ClockLed\src\ClockLed.cpp"
 
 //DS3231
 #define SPI_ADDRESS_DS3231 0x68
